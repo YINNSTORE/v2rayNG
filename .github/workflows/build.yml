@@ -4,11 +4,19 @@ on:
   workflow_dispatch:
     inputs:
       release_tag:
+        description: "1.0.1"
         required: false
         type: string
+
   push:
     branches:
       - master
+      - dev
+
+  pull_request:
+    branches:
+      - master
+      - dev
 
 jobs:
   build:
