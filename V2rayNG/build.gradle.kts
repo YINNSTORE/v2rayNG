@@ -9,5 +9,5 @@ buildscript {
     dependencies {
         classpath(libs.gradle.license.plugin)
     }
-}
+
 
