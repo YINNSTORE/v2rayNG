@@ -10,4 +10,4 @@ buildscript {
         classpath(libs.gradle.license.plugin)
     }
 
-
+}
